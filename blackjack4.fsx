@@ -41,9 +41,9 @@ type Card =
         | Queen
         | King -> [ 10 ]
         | Ace -> [ 1; 11 ]
-        | Joker [ 0 ]
+        | Joker -> [ 0 ]
 
 let total =
-    Ace + Five + Nine + Ace + Queen
+    Ace + Five + Nine + Ace + Queen + Joker
 
 
